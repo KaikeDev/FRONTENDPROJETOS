@@ -1,0 +1,74 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  background-color:  hsl(0, 0%, 8%);
+  margin: auto;
+  width: 350px;
+  height: 600px;
+  border-radius: 10px;
+  margin-top:80px;
+}
+
+#divImagem {
+  text-align: center;
+}
+
+img {
+  border-radius: 40px;
+  width: 80px;
+  position: relative;
+  top: 30px;
+}
+
+#divJessica {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  position: relative;
+  top: 30px;
+}
+
+#texto {
+  color: yellow;
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+
+#divTexto {
+  text-align: center;
+}
+
+#texto2 {
+  color: white;
+  position: relative;
+  top: 25px;
+}
+
+#botoes{
+    margin: auto;
+    text-align: center;
+}
+
+input{
+    cursor: pointer; 
+    border: none;    
+    outline: none;
+    background-color:hsl(0, 0%, 12%);
+    color: white;
+    height:50px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    margin-top:10px;
+    width: 250px;
+}
