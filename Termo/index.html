@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Termo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="JS/index.js"></script>
+  </head>
+  <body>
+    <main id="container">
+      <div id="divUltimaPalavraDigitada">
+        <h4 id="ultimaPalavra">Ultima palavra digitada</h4>
+
+        <div class="palavraUltimaDigitada" id="pud1"></div>
+        <div class="palavraUltimaDigitada" id="pud2"></div>
+        <div class="palavraUltimaDigitada" id="pud3"></div>
+        <div class="palavraUltimaDigitada" id="pud4"></div>
+        <div class="palavraUltimaDigitada" id="pud5"></div>
+      </div>
+
+      <button id="btnReiniciar" onclick="reiniciar()">Reiniciar</button>
+
+      <div id="divPalavraDigitada">
+        <div class="palavraDigitada" id="palavra1"></div>
+        <div class="palavraDigitada" id="palavra2"></div>
+        <div class="palavraDigitada" id="palavra3"></div>
+        <div class="palavraDigitada" id="palavra4"></div>
+        <div class="palavraDigitada" id="palavra5"></div>
+      </div>
+
+      <div id="divPalavra">
+        <input type="text" name="palavra" id="palavra" oninput="mostrarConteudo()" maxlength="5"/>
+        <button onclick="mostrarPalavra()">CLICAR</button>
+        <br />
+        <label for="palavra">Digite a palavra</label>
+      </div>
+
+    </main>
+  </body>
+</html>
