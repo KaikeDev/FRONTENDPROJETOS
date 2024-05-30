@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  overflow: hidden;
+}
+
+main {
+  background-color: hsl(30, 38%, 92%);
+  height: 600px;
+  margin: 50px 40px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#sectionMain {
+  text-align: center;
+  padding: 50px;
+}
+
+#sectionImagem > img {
+  height: 500px;
+  width: 400px;
+  margin-right: 370px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#sectionTexto {
+  position: relative;
+  background-color: white;
+  left: 686px;
+  bottom: 555px;
+  height: 504px;
+  width: 400px;
+  margin-top: 50px;
+  border-radius: 0px 10px 10px 0px;
+  text-align: left;
+}
+
+.texto {
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+#titulo3 {
+  padding-top: 40px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+}
+
+#titulo1 {
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+}
+
+#idPreco1 {
+  color: #3e7f68;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: "Fraunces", serif;
+}
+
+#idPreco2 {
+  color: hsl(228, 12%, 48%);
+  position: relative;
+  bottom: 60px;
+  left: 140px;
+  font-family: "Fraunces", serif;
+}
+
+#botaoAdd {
+  background-color: #3e7f68;
+  color: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  bottom: 40px;
+  font-weight: bolder;
+cursor: pointer;
+}
+
+#imgAdd{
+  margin-right: 20px;
+}
